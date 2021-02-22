@@ -90,7 +90,7 @@ func EndMainProcess(wg *sync.WaitGroup) {
 			}
 		}
 		cspText += ";\n"
-		f, err := os.Create(getOutFileName())
+		f, err := os.Create("csp/" + getOutFileName())
 		if err != nil {
 			panic(err)
 		}
