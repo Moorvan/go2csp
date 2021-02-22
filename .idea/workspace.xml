@@ -36,7 +36,16 @@
       <recent name="C:\Documents\study\goProgram\go2csp\csp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build deadlock.go">
+    <configuration name="go build deadlock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go2csp" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-csp deadlock.csp" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/example/deadlock.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build getSum.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go2csp" />
       <working_directory value="$PROJECT_DIR$" />
@@ -46,8 +55,13 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build getSum.go" />
+      <item itemvalue="Go Build.go build deadlock.go" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build deadlock.go" />
         <item itemvalue="Go Build.go build getSum.go" />
       </list>
     </recent_temporary>

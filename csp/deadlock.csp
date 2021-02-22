@@ -1,0 +1,10 @@
+channel ch0 0;
+channel ch1 0;
+
+MAIN() = ch1!1 -> ch0?1 -> Skip;
+P0() = ch0?1 -> Skip;
+P1() = ch1!1 -> Skip;
+
+P() = MAIN() || P0() || P1();
+
+#assert P() deadlockfree;
